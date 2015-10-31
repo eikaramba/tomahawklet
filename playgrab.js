@@ -134,7 +134,7 @@ Playgrab = {
         }
     },
     addScraper: function(domain) {
-        var link = "<scrip"+"t src='https://raw.github.com/sydlawrence/tomahawklet/master/scrapers/"+domain+".js'><"+"/script>";
+        var link = "<scrip"+"t src='https://raw.github.com/eikaramba/tomahawklet/master/scrapers/"+domain+".js'><"+"/script>";
         console.log("Added " + domain + " scraper");
         $('body').append(link);
     },
@@ -182,7 +182,7 @@ Playgrab = {
             top:0
         });
 
-        var logo = $("<img src='https://github.com/sydlawrence/tomahawklet/raw/master/tomahk_logo.png'/>");
+        var logo = $("<img src='https://github.com/eikaramba/tomahawklet/raw/master/tomahk_logo.png'/>");
         logo.css({
             height:20,
             border:"none",
