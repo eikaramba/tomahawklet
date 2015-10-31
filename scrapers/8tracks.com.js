@@ -13,7 +13,7 @@ Playgrub.source.error = 'Sorry, no tracks were found.'
 Playgrub.source.scrape = function() {
 
     $('div.playlist').each(function() {
-    	$('.track').each(function() {
+    	$(this).find('.track').each(function() {
         	var artist = $(this).find('span.a').text();
         	var song = $(this).find('span.t').text().trim();
         	
