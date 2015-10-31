@@ -18,7 +18,7 @@ Playgrub.source.scrape = function() {
         	var song = $(this).find('span.t').text().trim();
         	
        		Playgrub.playlist.add_track(artist, song);
-    	}
+    	});
     });
 }
 
